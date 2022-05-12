@@ -2,14 +2,13 @@ import { Product } from '../interfaces/interfaces';
 
 const product1 = {
   id: '1',
-  img: './coffee-mug.png',
-  title: 'Coffee Mug',
+  title: 'Coffee Mug - Sin Imagen',
 };
 
 const product2 = {
   id: '2',
   img: './coffee-mug2.png',
-  title: 'Coffee Mug 2',
+  title: 'Coffee Mug - Con Imagen',
 };
 
 export const products: Product[] = [product1, product2];

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`iProductTitle debe mostrar el componente con el nombre del producto 1`] = `
+<div
+  className="productCard undefined"
+>
+  <span
+    className="productDescription undefined"
+  >
+    Coffee Mug - Sin Imagen
+  </span>
+</div>
+`;
+
+exports[`iProductTitle debe mostrar el componente correctament con el título personalizado 1`] = `
+<span
+  className="productDescription custom-class"
+>
+  Custom product
+</span>
+`;
